@@ -130,7 +130,7 @@ background-position: center;                     		/* 4 - Posicionamos la imagen
 
 /* Footer */
 .Footer{
-    background-image: url('../images/footer.jpg');      /* 1 - Aplicamos fondo*/
+    background-image: url('../img/footer.jpg');      /* 1 - Aplicamos fondo*/
 	background-repeat: no-repeat;                       /* 2 - Se indica que la imagen no se repita*/ 
 	background-position: center;                        /* 3 - Se alinea al centro*/
 	background-size: cover;                             /* 4 - Se aplica efecto que la imagen se visualice en todo lo ancho del viewport*/
@@ -142,17 +142,18 @@ padding: 30px 0; 			/* 14 - centrar los 2 contenedores*/
     width: 40%;                                        /* 7 - Se aplica un ancho al contenedor izquierdo*/   
 	text-align: center;             /* 8 - Centra texto */
 	padding-right: 20px;	/* 9 - agrega espacio interno */
-   display: inline-block;	/* 11 - Permite que el contenedors sean responsive */
-   vertical-align: top;                  /* 13 - Permite posicionar arriba los contenedores*/
+display: inline-block;	/* 11 - Permite que el contenedors sean responsive */
+vertical-align: top;                  /* 13 - Permite posicionar arriba los contenedores*/
 }
 
 .Footer-right{
-    display: inline-block;   		/* 12 - Permite que elcontenedors sean responsive */   
+           display: inline-block;   		/* 12 - Permite que elcontenedors sean responsive */
 }
 
 .Footer-title{
-       color: white;                                       /* 5 - Aplica color de texto al titulo del modulo*/
+         color: white;                                       /* 5 - Aplica color de texto al titulo del modulo*/
       margin-top: 0;                                      /* 6 - Se elimina margen superior al titulo del modulo*/ 
+    
 
 }
 
